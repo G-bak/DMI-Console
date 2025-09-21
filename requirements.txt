@@ -1,0 +1,3 @@
+winget install OpenJS.NodeJS.LTS # node.js 설치
+npm install   # dependencies 설치
+npm start     # server.js 실행

@@ -1,0 +1,29 @@
+html, body { margin:0; background:#f7f7f7; }
+.page { margin-top: 30px !important; width:1282px; height:665px; margin:0 auto; position:relative; box-sizing:border-box; border:1px solid #dbdbdb; background-color: #fff !important; }
+.bt { font-weight:700 }
+.mid { dominant-baseline:middle; text-anchor:middle }
+.label { font: 12px 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; fill:#111; pointer-events: none; }
+.tiny { font-size:11px }
+.caption { font-size:24px; font-weight:500 }
+.title { font-size:28px; font-weight:400 }
+.chip { font-size:16px; font-weight:400; fill:#fff }
+.fs-12px { font-size: 12px; }
+.k { font: 13px 'Malgun Gothic', sans-serif; fill:#0f0f0f }
+.btn { fill:#eaf2fb; stroke:#a0bcd5 }
+.btnText { font:14px 'Malgun Gothic', sans-serif; fill:#1a2b3c; font-weight:700 }
+.blk { fill:#000 } .wht{ fill:#fff }
+.mv { fill:#dfeedd }      /* 연녹 */
+.cv { fill:#efefef }
+.dl3 { fill:#e3e3e3 }
+.gn7 { fill:#f6f6f6 }
+.mq4 { fill:#eeeeee }
+.yb  { fill:#eeeeee }
+.y4  { fill:#eeeeee }
+.sv  { fill:#ebebeb }
+.tk  { fill:#ebebeb }
+.chipHead { fill:#111 }
+.chipHeadText { fill:#fff; font:12px 'Malgun Gothic'; font-weight:700 }
+.boxStroke { stroke:#111; stroke-width:1.5 }
+.thinStroke { stroke:#111; stroke-width:1.5 }
+.fatStroke { stroke:#111; stroke-width:7 }
+.cursor-pointer { cursor: pointer; }

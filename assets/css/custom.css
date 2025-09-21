@@ -1,0 +1,98 @@
+.custom-max-width {
+  max-width: 1280px;
+}
+
+@media (max-width: 768px) {
+  .custom-max-width {
+    max-width: 100% !important;
+  }
+}
+
+.spec-table th,
+.spec-table td {
+    vertical-align: middle;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.spec-table th:first-child,
+.spec-table td:first-child {
+    text-align: left !important;
+    padding-left: 1rem;
+}
+
+.section-header {
+    background-color: #f2f2f2 !important;
+    font-weight: bold;
+    text-align: left !important;
+    padding-left: 1rem;
+    color: #212529;
+    font-size: 0.75rem;
+}
+
+.product-name-row {
+    background-color: #343a40;
+    color: white;
+}
+
+.spec-table .yes {
+    color: #198754; /* Bootstrap success */
+    font-weight: bold;
+}
+
+.spec-table .no {
+    color: #dc3545; /* Bootstrap danger */
+    font-weight: bold;
+}
+
+.fixed-header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 0;
+}
+
+.section-tight {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .section-tight {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+  }
+}
+
+.gap-15px { gap: 15px; }
+.gap-5px { gap: 5px; }
+.custom-mb-3 { margin-bottom: 1.4rem !important; }
+
+.modal-content {
+  border-radius: 3px !important;
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.cert-thumb {
+  width: 36px; height: 36px;
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 50%;
+  background: #f8f9fa;         /* 밝은 회색 배경 */
+  border: 1px solid #dee2e6;
+  color: #0d6efd;              /* 기본 파랑 */
+  transition: all .2s ease;
+}
+.cert-thumb:hover {
+  background: #e9e9e9;
+}
+
+.user-select-none {
+  user-select: none; 
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}

@@ -1,0 +1,10 @@
+{
+  "name": "dmi-console",
+  "version": "0.1.5",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0"
+  }
+}
