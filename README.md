@@ -67,6 +67,12 @@ node -v
 npm -v
 ```
 
+### 1-1. Node.js 환경 변수 설정
+```powershell
+# 터미널 or Visual Studio Code 재실행
+C:\Program Files\nodejs\
+```
+
 ### 2. 프로젝트 클론
 ```powershell
 git clone https://github.com/G-bak/DMI-Console.git
